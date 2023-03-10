@@ -1,0 +1,28 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6rem;
+	min-height: 100vh;
+}
+
+.walletButton {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.walletButton button {
+	background-color: #0978fa;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	padding: 0.75rem 2rem;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.walletButton button:hover {
+	background-color: #4291ec;
+}
