@@ -47,7 +47,7 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>PoC Web3-Onboard + Thetha</title>
+				<title>PoC Web3-Onboard + Theta</title>
 				<meta
 					name='description'
 					content='Example of how to integrate Web3-Onboard with Next.js'
@@ -56,7 +56,7 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<h1 className={styles.title}>PoC Web3-Onboard + Thetha</h1>
+				<h1 className={styles.title}>PoC Web3-Onboard + Theta</h1>
 				<div className={styles.walletButton}>
 					<h3>
 						{connecting
