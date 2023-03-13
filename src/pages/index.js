@@ -29,7 +29,11 @@ export default function Home() {
 	useEffect(() => {
 		window.addEventListener('beforeunload', (ev) => {
 			ev.preventDefault();
-			if (wallet) window.localStorage.setItem('connectedWallet', wallet.label);
+			if (wallet) {
+				window.localStorage.setItem('connectedWallet', wallet.label);
+			} else {
+				window.localStorage.removeItem('connectedWallet');
+			}
 		});
 	});
 
